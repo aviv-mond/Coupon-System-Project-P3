@@ -1,0 +1,31 @@
+.pageHeader {
+	padding-top: 10px;
+}
+
+.pageHeader>.login {
+    text-align: left;
+    vertical-align: text-top;
+    padding-left: 50px;
+}
+
+.Headline a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.Headline a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.Headline a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.Headline a:active {
+    text-decoration: none;
+    color: black;
+}
+
+

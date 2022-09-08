@@ -1,0 +1,13 @@
+.loginScreen {
+	padding: 20px;
+    margin: 20px;
+    width: 20%;
+}
+
+.MuiTypography-h4 {
+    text-align: center;
+}
+
+.errorMsg {
+    color: red;
+}
