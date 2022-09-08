@@ -34,6 +34,10 @@ function PurchaseCoupon(): JSX.Element {
     );
   };
 
+  const handleSubmit = () => {
+    sendPurchase(purchCoupon);
+  }
+
   const sendPurchase = (msg: Coupon) => {
     jwtAxios
       .post<Coupon>(globals.urls.customerPurchaseCoupon, purchCoupon)
@@ -99,7 +103,7 @@ function PurchaseCoupon(): JSX.Element {
         <br />
         <br />
         <ButtonGroup variant="contained">
-          <Button color="primary" onClick={sendPurchase}>
+          <Button color="primary" onClick={handleSubmit}>
             Search
           </Button>
         </ButtonGroup>
